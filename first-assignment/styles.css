@@ -41,3 +41,10 @@
     border: none;
     color: #005fac;
 }
+ul {
+    list-style: none;
+  }
+  
+  ul li:before {
+    content: '✔️';
+  }
